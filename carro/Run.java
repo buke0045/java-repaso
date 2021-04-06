@@ -7,13 +7,13 @@ import moto.Ninja;
 public class Run {
 
 	public static void main(String[] args) {
-		new Carretera(createCarFactory(CarType.SEDAN)).runMaquinarias();
-		new Carretera(createCarFactory(CarType.PICKUP)).runMaquinarias();
-		new Carretera(createMotoFactory()).runMaquinarias();
-		//agregar ducati
+
+		//agregar Buke
+
 	}
-	
-	
+
+
+
 	private enum CarType {
 		SEDAN,
 		PICKUP
