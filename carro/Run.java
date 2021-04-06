@@ -7,9 +7,9 @@ import moto.Ninja;
 public class Run {
 
 	public static void main(String[] args) {
-		new Carretera(createCarFactory(CarType.SEDAN)).runMaquinarias();
-		new Carretera(createCarFactory(CarType.PICKUP)).runMaquinarias();
-		new Carretera(createMotoFactory()).runMaquinarias();
+		new Carretera(createCarFactory(CarType.SEDAN)).runMaquinaria(); 
+		new Carretera(createCarFactory(CarType.PICKUP)).runMaquinaria();
+		new Carretera(createMotoFactory()).runMaquinaria();
 		//agregar ducati
 	}
 	
